@@ -15,7 +15,7 @@ const Container = styled.div`
 `
 
 const size = 40
-const count = 13
+const count = 12
 const spacing = 20
 
 const Circle = styled.div`
