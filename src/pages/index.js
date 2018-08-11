@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'react-emotion'
 
+import Layout from '../layout'
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -42,16 +44,18 @@ const Strong = styled.strong`
 `
 
 const Landing = () => (
-  <Container>
-    <Heading>
-      <Strong>PHOOMPARIN</Strong>
-      MANO
-    </Heading>
+  <Layout>
+    <Container>
+      <Heading>
+        <Strong>PHOOMPARIN</Strong>
+        MANO
+      </Heading>
 
-    <SubHeading>
-      <Strong>COMING SOON;</Strong> STAY TUNED.
-    </SubHeading>
-  </Container>
+      <SubHeading>
+        <Strong>COMING SOON;</Strong> STAY TUNED.
+      </SubHeading>
+    </Container>
+  </Layout>
 )
 
 export default Landing
