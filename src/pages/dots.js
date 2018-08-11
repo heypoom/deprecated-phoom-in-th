@@ -48,18 +48,10 @@ const dark = '#2d2d30'
 @observer
 export default class Board extends Component {
   @observable
-  colors = Array(count * count).fill(primary)
+  colors = Array(count * count).fill(true)
 
   handleCircle = i => {
-    const color = this.colors[i]
-
-    if (!color || color === primary) {
-      this.colors[i] = dark
-    }
-
-    if (color === dark) {
-      this.colors[i] = primary
-    }
+    this.colors[i] = !this.colors[i]
   }
 
   render() {
@@ -70,7 +62,7 @@ export default class Board extends Component {
             {this.colors.map((color, i) => (
               <Circle
                 key={i}
-                color={color || primary}
+                color={color ? primary : dark}
                 onClick={() => this.handleCircle(i)}
                 onMouseOver={() => this.handleCircle(i)}
                 onTouchStart={() => this.handleCircle(i)}
