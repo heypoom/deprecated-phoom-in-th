@@ -1,15 +1,57 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import styled from 'react-emotion'
 
-import Layout from '../components/layout'
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 
-const IndexPage = () => (
-  <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
+  @media (min-width: 800px) {
+    border: 20px solid #2d2d30;
+  }
+`
+
+const Heading = styled.h1`
+  font-size: 4.3em;
+  color: #333;
+
+  @media (max-width: 800px) {
+    font-size: 2.8em;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 2.1em;
+  }
+`
+
+const SubHeading = styled.h2`
+  margin-top: 1.8em;
+  font-size: 1.8em;
+  color: #555;
+  font-weight: 300;
+
+  @media (max-width: 800px) {
+    font-size: 1.3em;
+  }
+`
+
+const Strong = styled.strong`
+  color: inherit;
+`
+
+const Landing = () => (
+  <Container>
+    <Heading>
+      <Strong>PHOOMPARIN</Strong>
+      MANO
+    </Heading>
+
+    <SubHeading>
+      <Strong>COMING SOON;</Strong> STAY TUNED.
+    </SubHeading>
+  </Container>
 )
 
-export default IndexPage
+export default Landing
