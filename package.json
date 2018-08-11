@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "phoom-in-th",
+  "description": "Phoomparin Mano's Portfolio Website",
+  "version": "0.1.0",
+  "author": "Phoomparin Mano <work@phoom.in.th>",
   "dependencies": {
+    "axios": "^0.18.0",
     "bulma": "^0.7.1",
     "emotion": "^9.2.6",
     "emotion-server": "^9.2.6",
@@ -13,11 +14,16 @@
     "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-sass": "^2.0.0-beta.10",
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.5",
     "node-sass": "^4.9.3",
+    "polished": "^1.9.3",
+    "ramda": "^0.25.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-emotion": "^9.2.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "recompose": "^0.28.2"
   },
   "keywords": [
     "gatsby"
@@ -31,6 +37,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.0.0-rc.1",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0-rc.1",
+    "@babel/plugin-transform-runtime": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "@babel/preset-flow": "^7.0.0-rc.1",
+    "@babel/preset-react": "^7.0.0-rc.1",
     "babel-eslint": "^8.2.6",
     "eslint": "^5.3.0",
     "eslint-config-prettier": "^2.9.0",
