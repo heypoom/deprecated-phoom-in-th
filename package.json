@@ -16,7 +16,8 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-emotion": "^9.2.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "node-sass": "^4.9.3"
   },
   "keywords": [
     "gatsby"
@@ -41,7 +42,6 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-standard": "^3.1.0",
-    "node-sass": "^4.9.3",
     "prettier": "^1.14.2"
   },
   "repository": {
