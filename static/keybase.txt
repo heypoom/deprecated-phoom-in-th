@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/phoomparin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://phoom.in.th
+  * I am phoomparin (https://keybase.io/phoomparin) on keybase.
+  * I have a public key with fingerprint 251E 64ED 8E79 7C73 F73C  7B98 B910 5058 B2FF 174B
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120db520dcbd73f3c0c18813e0ac9a6396614c79115837438fadd8abde9ec5257460a",
+      "fingerprint": "251e64ed8e797c73f73c7b98b9105058b2ff174b",
+      "host": "keybase.io",
+      "key_id": "b9105058b2ff174b",
+      "kid": "01014029a9d3e88044290f201c0427ef485199121393d59631c28cfa18b77184d2ad0a",
+      "uid": "26d7810d0aaa3439574d04917eef3719",
+      "username": "phoomparin"
+    },
+    "merkle_root": {
+      "ctime": 1549821261,
+      "hash_meta": "7bb953765aab0cce9d5f730d35e2c042bdad6979aa640ea526d8f9e8ec766fbe",
+      "seqno": 4737506
+    },
+    "revoke": {
+      "sig_ids": [
+        "58a36dfa2b51e0dcff74a2cffb2f80990cfde807d9e620fa7a704bffd51ee6e80f"
+      ]
+    },
+    "service": {
+      "hostname": "phoom.in.th",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1549821263,
+  "expire_in": 157680000,
+  "prev": "23af26cefa805571fa32434d2520537e7283955833c7684d0477475de51450b2",
+  "seqno": 46,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMP/AnicbVNrbFRFFG5VIBRLW4KCCYRyCymUusx9zsyqbQryCEQKIthK6zL3ztzd
+y7J7t7vbLW0hUiiJSCwFGwkC2mIrBkXAFCIKQitRUsoba+WdVN4pAo2gFopzG0mI
+8f64k5n5zjnf+b4zBxOfjkuI35M8M+/rR0Omxx9uLimOK5jPcssF3aalgrtc8LPe
+hS2kLBL1+C0quAUgSoDqKv8ZOoWyKRvAEBESZQaIgYkmY00TFQNiUVSRDBUZmYRS
+RHTKMDNUSYWKBoiQKZhW0MvCobAVjPK0kioyTWEUMYihwfNC2YA6RjoWgQpUpEum
+KUJF54E+O+JEcHI6iTCXZfMzvvH00vsf/GPeQFSAhAmmMkMIKIqEgSkB0QCKBJmp
+IFXEWJREGctUxZosGhIyTCIiHUIRKVQitJd3cW86SaMQiYAfESIrMuZtUaBgETJm
+ylDEDjDCwkESYBwd8tl2IER4r8KSTCHAwv6FzBO27agjrxG1HJCoKhhJoqSJvEUS
+8XkCLEp4LNR1rMpQUwnRgWEwTFUuDqCyyiSHu04J1TDEhGgKYETlzJCJGWIG1DRT
+Z5xJhBUFbcGtQBmqQOMMwixm+5lTPGJ5uXARwT1PUBGRNWoSSedecHtNEypE4gvX
+EgGMgWFShgCkmGkSMAkkECi6aVIOZxq/MYXCJU6xcMwyepM7Tj2pgMsKuqI+TigU
+tqO2YS/kF75oNBRxO7JES0MOsoTpnn9zeHQrSPmY8IgYC0csO8hl4sj/KiZnCmxR
+yAozj+UgVKghwD+nDos5ZsnElDSDmQQBVYWiSWRJkbmlfIy5tAxKiDvIx5XPnIYc
+IyFUoEqZKioq0KUnJNQ4T+LlOblwQRItDjNhSXNTwTNx8Qlxffs85byfuIT+yY9f
+1V4jqQelLF9T2PVl6+wm/9s/fHfwvhW/Lj5WvvLWT6Mv7Vyw30s/3LXWPKVX6ls7
+1j/4e9eOM/57e+d/3nLpVHdlVcb8Cc2bj5zt3hIzDw76/XbaxNS2zku44YU/hnTs
+zSLkdHTb0KXb3VafZVPXl0bSO2ra7+xbtuvT52rq7kXHJj9f4Utuz3m1+/vGt0YW
+jps85fXDnaHAR6P7tzQkvli77/jtG1UH8jrF/L/mtF7JWpt6c+dXi9/v2jms5eH4
+OgkN3OIqP5qXkJn7oL76lVmpHzT2jPMunnvXHdrdOGrCuOwJlRUnzl3baPzamjS4
+fExZlbsme2XCoI2hiRm5x9pvZp1xZ+iFrT8P9U65OyNQVKEPTOgaf/FqZ0rbvaNZ
+096Zur+HLO2ZGJmWWp3xiPZz5cbeO1nbMaDuimfSqguXl18/VN+Q0feTy0MzBrub
+Vnm3Vb3sylu36XpOdtq2223XJ4W6Z+8pcm9O3zDzfrv7UEWOZ9a7c4ePbMGbytqO
+/bhhRFbisDWXb7XMultgDmvMubXo42Vpe2Lhb6z015LaTufDR1vTjvf77NzDgL90
++Ju1q2NXvQdQ6coR54efLBgo53eN+qLeveJEk9GUP7by2pEF+EJVz/mu6juT64u/
+3a1t3q4UNYxJeuPqjAMeoexcvOulOekXrR0lvsC87NF9B0xf8dvZ5toa+9nEGykl
+q7ewX+YtKpu+7k/L/gd97gS3
+=8Rxj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/phoomparin
+
+==================================================================
