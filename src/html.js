@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
 export default class HTML extends React.Component {
   render() {
@@ -13,12 +13,15 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           {this.props.headComponents}
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          />
           <script>
-            (adsbygoogle = window.adsbygoogle || []).push({
+            {`(adsbygoogle = window.adsbygoogle || []).push({
               google_ad_client: "ca-pub-9656422767913904",
               enable_page_level_ads: true
-            });
+            });`}
           </script>
         </head>
         <body {...this.props.bodyAttributes}>
@@ -26,7 +29,7 @@ export default class HTML extends React.Component {
           <div
             key={`body`}
             id="___gatsby"
-            dangerouslySetInnerHTML={{ __html: this.props.body }}
+            dangerouslySetInnerHTML={{__html: this.props.body}}
           />
           {this.props.postBodyComponents}
         </body>
