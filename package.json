@@ -16,7 +16,7 @@
     "gatsby-plugin-sass": "^2.0.0-beta.10",
     "mobx": "^5.0.3",
     "mobx-react": "^5.2.5",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "polished": "^1.9.3",
     "ramda": "^0.25.0",
     "react": "^16.4.1",
